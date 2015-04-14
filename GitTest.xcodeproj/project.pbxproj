@@ -14,6 +14,7 @@
 		E7E48AFD1ADDD6E60051CE1F /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E7E48AFC1ADDD6E60051CE1F /* Images.xcassets */; };
 		E7E48B001ADDD6E60051CE1F /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = E7E48AFE1ADDD6E60051CE1F /* LaunchScreen.xib */; };
 		E7E48B0C1ADDD6E60051CE1F /* GitTestTests.m in Sources */ = {isa = PBXBuildFile; fileRef = E7E48B0B1ADDD6E60051CE1F /* GitTestTests.m */; };
+		E7E48B171ADDDC170051CE1F /* ESTest.m in Sources */ = {isa = PBXBuildFile; fileRef = E7E48B161ADDDC170051CE1F /* ESTest.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,6 +41,8 @@
 		E7E48B051ADDD6E60051CE1F /* GitTestTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GitTestTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		E7E48B0A1ADDD6E60051CE1F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		E7E48B0B1ADDD6E60051CE1F /* GitTestTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GitTestTests.m; sourceTree = "<group>"; };
+		E7E48B151ADDDC170051CE1F /* ESTest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ESTest.h; path = ../ESTest.h; sourceTree = "<group>"; };
+		E7E48B161ADDDC170051CE1F /* ESTest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ESTest.m; path = ../ESTest.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -81,6 +84,8 @@
 		E7E48AEE1ADDD6E60051CE1F /* GitTest */ = {
 			isa = PBXGroup;
 			children = (
+				E7E48B151ADDDC170051CE1F /* ESTest.h */,
+				E7E48B161ADDDC170051CE1F /* ESTest.m */,
 				E7E48AF31ADDD6E60051CE1F /* AppDelegate.h */,
 				E7E48AF41ADDD6E60051CE1F /* AppDelegate.m */,
 				E7E48AF61ADDD6E60051CE1F /* ViewController.h */,
@@ -222,6 +227,7 @@
 				E7E48AF81ADDD6E60051CE1F /* ViewController.m in Sources */,
 				E7E48AF51ADDD6E60051CE1F /* AppDelegate.m in Sources */,
 				E7E48AF21ADDD6E60051CE1F /* main.m in Sources */,
+				E7E48B171ADDDC170051CE1F /* ESTest.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
